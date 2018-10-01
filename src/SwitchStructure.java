@@ -97,9 +97,9 @@ public class SwitchStructure {
 			Number = Scan.nextInt();
 			int Number2 = Scan.nextInt();
 			
-			while((Number != 123 && Number2 != 321) || (Number != 321 && Number2 != 123) ) {
+			while(((Number != 123) && (Number2 != 321)) || (Number != 321 && Number2 != 123) ) {
 				
-				System.out.println("KeepTrying!!");
+				System.out.println("Keep Trying!!");
 				
 				Number = Scan.nextInt();
 				Number2 = Scan.nextInt();
@@ -116,23 +116,28 @@ public class SwitchStructure {
 			
 			int Print = 0;
 			
-			System.out.println("How many Asterisks do you want?");
+			System.out.println("How many asterisks do you want? (0 to finish)");
 			
 			Number = Scan.nextInt();
 			
+			while (Number !=0) {
+			
 			while(Print < Number) {
 				
-				System.out.println("*");
-				Print++;
-				
-				
-				
+				System.out.print("*");
+				Print++;	
+							
+			}
+			
+			System.out.print("\n");
+			Number = Scan.nextInt();
+			
 			}
 			break;
 			
 			default:
 				
-				System.out.println("Please enter a valid number");
+				System.out.println("Please enter a valid number ");
 			
 			}
 					
