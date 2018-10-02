@@ -97,7 +97,7 @@ public class SwitchStructure {
 			Number = Scan.nextInt();
 			int Number2 = Scan.nextInt();
 			
-			while(((Number != 123) && (Number2 != 321)) || ((Number !=321) && (Number2 != 123)) ) {
+			while(!(Number == 123 && Number2 == 321)) {
 				
 				System.out.println("Keep Trying!!");
 				
