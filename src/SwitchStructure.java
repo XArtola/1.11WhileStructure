@@ -128,6 +128,8 @@ public class SwitchStructure {
 				Print++;	
 							
 			}
+				
+			Print = 0;
 			
 			System.out.print("\n");
 			Number = Scan.nextInt();
